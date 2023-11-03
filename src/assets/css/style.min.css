@@ -742,7 +742,7 @@ a {
 .or,
 .clients-slider-nav:hover,
 .course-navi {
-    color: #fff
+    color: #141414
 }
 
 .news-letter .section-wrapper .news-form form .nf-list input[type=email],
@@ -808,7 +808,7 @@ a {
 .video-button::after,
 .video-button,
 .clients-slider-nav {
-    background-color: #fff
+    background-color: #141414
 }
 
 footer.style-2 .footer-top .footer-item.our-address .footer-inner .footer-content .content ul.office-address li,
@@ -888,7 +888,7 @@ a:focus,
 a:active,
 a:visited,
 a {
-    color: #101115
+    color: #fff
 }
 
 footer.style-2 .footer-top.dark-view,
@@ -983,7 +983,7 @@ footer.style-2 .footer-top .footer-item .footer-inner .footer-content .content u
 .course-showing-part .course-showing-part-right .select-item .select-icon,
 .course-showing-part .course-showing-part-right .select-item select,
 .theme-color {
-    color: #f16126
+    color: #8dd017
 }
 
 .news-letter .section-wrapper .news-form form .nf-list::after,
@@ -1041,7 +1041,7 @@ footer.style-2 .footer-top .footer-item .footer-inner .footer-content .content u
 .or,
 .clients-slider-nav:hover,
 .course-navi {
-    background: #f16126
+    background: #8dd017
 }
 
 .news-letter .section-wrapper .news-form form .nf-list input[type=submit],
@@ -1085,7 +1085,7 @@ footer.style-2 .footer-top .footer-item.our-address .footer-inner .footer-conten
 .account-form .form-group .checkgroup label,
 .section-header .subtitle.desc-color,
 p {
-    color: #555
+    color: #8f8d8d
 }
 
 .instructor-single-section .instructor-wrapper .instructor-single-top .instructor-single-item .instructor-single-content ul li .list-attr::after,
@@ -1096,7 +1096,7 @@ p {
 footer.style-2 .footer-bottom,
 .feature-section.style-3,
 .section-bg-ash {
-    background: #f9f9f9
+    background: #141414
 }
 
 .news-letter .section-wrapper .news-form form .nf-list::after,
@@ -1675,16 +1675,11 @@ footer.style-2 .footer-top .footer-item.twitter-post .footer-inner .footer-conte
 .lab-btn-text.yellow-color i,
 .yellow-color,
 .section-header .subtitle.yellow-color {
-    color: #ffdf40
+    color: #8dd017
 }
 
 .social-icons li a.facebook {
     background: #3b5998
-}
-
-.course-side-detail .csd-content .sidebar-social .ss-content ul li a.twitter,
-.social-icons li a.twitter {
-    background: #55acee
 }
 
 .social-icons li a.linkedin {
@@ -1698,6 +1693,10 @@ footer.style-2 .footer-top .footer-item.twitter-post .footer-inner .footer-conte
 .social-icons li a.instagram {
     background: #e4405f
 }
+.course-side-detail .csd-content .sidebar-social .ss-content ul li{
+    background: #55acee
+}
+
 
 .achievement-section.style-3 .counter-part .col:nth-child(4) .count-item .count-inner .count-icon::after,
 .achievement-section.style-3 .counter-part .col:nth-child(4) .count-item .count-inner .count-icon::before,
@@ -1753,11 +1752,7 @@ footer.style-2 .footer-top .footer-item.twitter-post .footer-inner .footer-conte
 .yellow-color-section .section-wrapper .course-item.style-3 .course-inner .course-content .lab-btn,
 .yellow-color-section .section-wrapper .course-item.style-3 .course-inner .course-thumb ul li .price,
 .yellow-color-section .section-header .course-navi {
-    background: #ffdf40
-}
-
-.social-icons li a.pinterest {
-    background: #bd081c
+    background: #8dd017
 }
 
 .course-side-detail .csd-content .sidebar-social .ss-content ul li a.vimeo,
@@ -2018,8 +2013,8 @@ html {
 }
 
 body {
-    background: #fff;
-    color: #555;
+    background: #141414;
+    color: #ffffff;
     font-family: "Barlow", sans-serif;
     font-size: 1rem;
     line-height: 1.5
@@ -2031,7 +2026,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #101115;
+    color: #fff;
     font-weight: 700;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -2166,7 +2161,7 @@ button {
 }
 
 .section-bg {
-    background: #fff9f1
+    background: #141414
 }
 
 .section-header {
@@ -2177,7 +2172,7 @@ button {
     font-size: 1.125rem;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: #f16126;
+    color: #8dd017;
     font-weight: 500;
     -webkit-transform: translateY(-8px);
     -ms-transform: translateY(-8px);
@@ -2186,7 +2181,7 @@ button {
 
 .lab-btn {
     padding: 10px 30px;
-    background: #f16126;
+    background: #8dd017;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -2212,12 +2207,12 @@ button {
 }
 
 .lab-btn-text i {
-    color: #f16126;
+    color: #8dd017;
     margin-left: 5px
 }
 
 .lab-btn-text:hover {
-    color: #f16126
+    color: #8dd017
 }
 
 .header-shadow {
@@ -2252,13 +2247,13 @@ button {
     -moz-border-radius: 50%;
     border-radius: 50%;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .06);
-    background: #fff;
-    color: #101115
+    background: #141414;
+    color: #fff
 }
 
 .default-pagination li a:hover,
 .default-pagination li a.active {
-    background: #f16126;
+    background: #8dd017;
     box-shadow: none;
     color: #fff
 }
@@ -2377,10 +2372,9 @@ button {
 .shape-img::after {
     width: 100%;
     height: 100%;
-    background: url(../../assets/images/shape-img/01.png);
+    background-color: #141414;
     z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat
+    
 }
 
 .account-wrapper {
@@ -2485,7 +2479,7 @@ button {
 .or::after {
     top: 50%;
     left: 50%;
-    background: #f16126;
+    background: #8dd017;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -2572,16 +2566,16 @@ button {
 }
 
 .yellow-color-section .section-wrapper .course-item.style-3 .course-inner .course-content .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .yellow-color-section .post-item.style-3 .post-inner .post-content .lab-btn {
     background: transparent;
-    border: 2px solid #ffdf40
+    border: 2px solid #8dd017
 }
 
 .yellow-color-section .post-item.style-3 .post-inner .post-content .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .preloader {
@@ -2591,7 +2585,7 @@ button {
     z-index: 9999;
     width: 100%;
     height: 100%;
-    background: #f16126
+    background: #8dd017
 }
 
 .preloader .preloader-inner {
@@ -2690,17 +2684,17 @@ button {
 }
 
 .scrollToTop.yellow-color i:hover {
-    box-shadow: 0px 5px 20px 0px rgba(255, 223, 64, .5)
+    box-shadow: 0px 5px 20px 0px #b7ec5b
 }
 
 .listActive .list,
 .gridActive .grid {
-    color: #f16126 !important
+    color: #8dd017 !important
 }
 
 .RevActive .rev,
 .DescActive .desc {
-    background: #f16126 !important
+    background: #8dd017 !important
 }
 
 .search-close {
@@ -3235,7 +3229,7 @@ button {
 
 .post-item.style-3 .post-inner .post-content .lab-btn {
     background: transparent;
-    border: 2px solid #f16126
+    border: 2px solid #8dd017
 }
 
 .post-item.slider-post .post-inner:hover .post-thumb.post-thumb-slider .post-thumb-slider-next {
@@ -3255,8 +3249,8 @@ button {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #fff;
-    color: #101115;
+    background: #141414;
+    color: #fff;
     z-index: 1;
     text-align: center;
     top: 50%;
@@ -3275,7 +3269,7 @@ button {
 .post-item.slider-post .post-inner .post-thumb.post-thumb-slider .post-thumb-slider-next .active,
 .post-item.slider-post .post-inner .post-thumb.post-thumb-slider .post-thumb-slider-prev:hover,
 .post-item.slider-post .post-inner .post-thumb.post-thumb-slider .post-thumb-slider-prev .active {
-    background: #f16126;
+    background: #8dd017;
     color: #fff
 }
 
@@ -3474,7 +3468,7 @@ button {
 
 .event-item .event-inner .event-content .event-date-info .edi-box {
     padding: 15px 10px;
-    border: 2px solid #f16126;
+    border: 2px solid #8dd017;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px
@@ -3534,7 +3528,7 @@ button {
 }
 
 .event-item.style-2 .event-inner .event-content .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .client-item .client-inner {
@@ -3548,7 +3542,7 @@ button {
     width: 100px;
     height: 100px;
     margin: 0 auto 30px;
-    border: 2px solid #f16126;
+    border: 2px solid #8dd017;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%
@@ -3843,7 +3837,7 @@ button {
         top: 100%;
         position: absolute;
         content: "";
-        background: #f16126;
+        background: #8dd017;
         -webkit-transition: all .3s ease;
         -moz-transition: all .3s ease;
         transition: all .3s ease;
@@ -3870,21 +3864,21 @@ button {
 
 @media(max-width: 991px) {
     .header-section.style-4 .menu>ul {
-        background: #ffdf40
+        background: #8dd017
     }
 
     .header-section.style-4 .menu>ul li a {
-        color: #101115;
+        color: #fff;
         border-top: 1px solid rgba(16, 17, 21, .1)
     }
 
     .header-section.style-4 .menu>ul li a:hover {
-        background: #ffdf40
+        background: #8dd017
     }
 }
 
 .header-section.style-4 .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .header-section.style-5.header-fixed {
@@ -3893,12 +3887,12 @@ button {
 
 @media(min-width: 992px) {
     .header-section.style-5 .header-bottom .menu>ul>li>a::after {
-        background: #ffdf40
+        background: #8dd017
     }
 }
 
 .header-section.style-5 .header-bottom .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .header-section.style-6 .header-top {
@@ -3937,7 +3931,7 @@ button {
 
 @media(min-width: 992px) {
     .header-section.style-7 .header-top-area .social-icons li a {
-        color: #ffdf40
+        color: #8dd017
     }
 }
 
@@ -3948,28 +3942,28 @@ button {
     }
 
     .header-section.style-7 .menu>ul li ul li a {
-        color: #101115
+        color: #fff
     }
 
     .header-section.style-7 .menu>ul li ul li a:hover,
     .header-section.style-7 .menu>ul li ul li a.active {
-        background: #ffdf40;
-        color: #101115
+        background: #8dd017;
+        color: #fff
     }
 
     .header-section.style-7 .menu>ul li ul li a.active::after,
     .header-section.style-7 .menu>ul li ul li a.active::before {
-        background: #101115
+        background: #fff
     }
 }
 
 @media(max-width: 991px) {
     .header-section.style-7 .menu>ul {
-        background: #ffdf40
+        background: #8dd017
     }
 
     .header-section.style-7 .menu>ul li a {
-        color: #101115;
+        color: #fff;
         border-top: 1px solid rgba(25, 24, 24, .1)
     }
 
@@ -4001,7 +3995,7 @@ button {
     height: 50px;
     line-height: 50px;
     width: 50px;
-    color: #f16126;
+    color: #8dd017;
     background: transparent;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -4130,7 +4124,7 @@ button {
 }
 
 .header-wrapper .menu-area .login {
-    color: #f16126;
+    color: #8dd017;
     border-radius: 2px 0 0 2px
 }
 
@@ -4160,7 +4154,7 @@ button {
 }
 
 .menu>ul>li>a {
-    color: #101115;
+    color: #fff;
     font-size: 1rem;
     font-weight: 700;
     padding: 15px 22px;
@@ -4221,7 +4215,7 @@ button {
 
     .menu>ul li ul li a:hover,
     .menu>ul li ul li a.active {
-        background: #f16126;
+        background: #8dd017;
         padding-left: 22px;
         color: #fff
     }
@@ -4266,7 +4260,7 @@ button {
         -ms-transform: scaleY(0);
         transform: scaleY(0);
         transform-origin: top;
-        background: #f16126;
+        background: #8dd017;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px)
     }
@@ -4478,7 +4472,7 @@ button {
 }
 
 .shop-menu li:hover>a {
-    color: #f16126 !important
+    color: #8dd017 !important
 }
 
 .shop-menu li:hover>a::before {
@@ -4490,11 +4484,11 @@ button {
 
 .shop-menu li:hover>a:hover::after,
 .shop-menu li:hover>a:hover::before {
-    background: #f16126
+    background: #8dd017
 }
 
 .shop-menu li.open>a::after {
-    background: #f16126
+    background: #8dd017
 }
 
 .shop-menu li.open>a::before {
@@ -4681,7 +4675,7 @@ button {
 }
 
 .banner-section .cbs-content-list ul li.shape-2 a {
-    background-image: linear-gradient(to right, #ff5dcc, #ff4ca2, #ff4878, #ff514f, #f16126)
+    background-image: linear-gradient(to right, #ff5dcc, #ff4ca2, #ff4878, #ff514f, #8dd017)
 }
 
 .banner-section .cbs-content-list ul li.shape-2 a::after {
@@ -4790,7 +4784,7 @@ button {
 }
 
 .banner-section .section-wrapper .banner-content .subtitle {
-    color: #f16126;
+    color: #8dd017;
     letter-spacing: 5px;
     font-size: 18px
 }
@@ -4841,7 +4835,7 @@ button {
 
 .banner-section .section-wrapper .banner-content form button {
     color: #fff;
-    background: #f16126
+    background: #8dd017
 }
 
 .banner-section .section-wrapper .banner-content .banner-catagory {
@@ -4867,7 +4861,7 @@ button {
 }
 
 .banner-section .section-wrapper .banner-content .banner-catagory ul li a:hover {
-    color: #f16126
+    color: #8dd017
 }
 
 .banner-section .section-wrapper .banner-thumb {
@@ -4890,7 +4884,7 @@ button {
     width: 50%;
     height: 100%;
     top: 0;
-    border-bottom: 875px solid #f16126;
+    border-bottom: 875px solid #8dd017;
     border-right: 960px solid transparent;
     z-index: 1
 }
@@ -5165,8 +5159,8 @@ button {
 }
 
 .banner-section.style-7 .section-wrapper .banner-top .banner-content .lab-btn:hover {
-    border-color: #ffdf40;
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    border-color: #8dd017;
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .banner-section.style-7 .section-wrapper .banner-bottom {
@@ -5381,11 +5375,11 @@ button {
 
 .category-section.style-4 .section-wrapper .lab-btn {
     background: transparent;
-    border: 2px solid #ffdf40
+    border: 2px solid #8dd017
 }
 
 .category-section.style-4 .section-wrapper .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .course-section .section-wrapper .col:nth-of-type(6n + 2) .course-item .course-inner .course-content .course-category .course-cate a {
@@ -5861,7 +5855,7 @@ button {
 .contact-info-section .section-wrapper .cinfo-item .cinfo-inner .cinfo-thumb {
     width: 120px;
     height: 120px;
-    border: 2px solid #ffdf40;
+    border: 2px solid #8dd017;
     line-height: 116px;
     margin: 0 auto 30px;
     z-index: 1;
@@ -5915,7 +5909,7 @@ button {
 }
 
 .offer-section .section-wrapper .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .instructor-section .section-wrapper .footer-btn p a {
@@ -6350,7 +6344,7 @@ button {
 .workshop-join .section-wrapper .workshop-title h5::after {
     right: -30px;
     top: 0;
-    border-left: 30px solid #f16126;
+    border-left: 30px solid #8dd017;
     border-top: 45px solid transparent
 }
 
@@ -6573,7 +6567,7 @@ button {
     width: 80px;
     height: 80px;
     line-height: 80px;
-    border: 1px solid #ffdf40;
+    border: 1px solid #8dd017;
     font-size: 1.875rem;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -6828,7 +6822,7 @@ button {
     bottom: 50%;
     right: 50%;
     z-index: 3;
-    border: 2px solid #ffdf40;
+    border: 2px solid #8dd017;
     font-weight: 700;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -7000,16 +6994,16 @@ button {
 }
 
 .register-section .section-wrapper .register-form .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 .app-section .section-header .lab-btn {
     background: transparent;
-    border: 2px solid #ffdf40
+    border: 2px solid #8dd017
 }
 
 .app-section .section-header .lab-btn:hover {
-    box-shadow: 0 5px 10px rgba(255, 223, 64, .5)
+    box-shadow: 0 5px 10px #b7ec5b
 }
 
 @media(min-width: 576px) {
@@ -7497,7 +7491,7 @@ button {
     line-height: 60px;
     font-size: 15px;
     text-align: center;
-    background: #f16126;
+    background: #8dd017;
     top: 50%;
     outline: none;
     transform: translateY(-50%);
@@ -7724,7 +7718,7 @@ button {
 }
 
 .shop-single .review .review-content .review-showing .client-review .review-form .review-title h5::after {
-    border-bottom: 4px dotted #f16126;
+    border-bottom: 4px dotted #8dd017;
     width: 20px;
     bottom: -20px;
     left: 55px
@@ -7814,12 +7808,12 @@ button {
     content: "";
     top: 8px;
     left: 0;
-    color: #f16126;
+    color: #8dd017;
     font-family: IcoFont !important
 }
 
 .shop-single .review .review-content .ratting i {
-    color: #f16126
+    color: #8dd017
 }
 
 .shop-cart .section-wrapper .cart-top {
@@ -8013,7 +8007,7 @@ button {
 }
 
 .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout input[type=submit]:hover {
-    border-color: #f16126
+    border-color: #8dd017
 }
 
 .shop-cart .section-wrapper .cart-bottom .shiping-box {
@@ -8269,7 +8263,7 @@ button {
 }
 
 .course-select-area .csa-body ul li .card .card-body .course-lists .csa-left>i.complite {
-    color: #f16126
+    color: #8dd017
 }
 
 .course-select-area .csa-body ul li .card .card-body .course-lists .csa-left h6,
@@ -8390,7 +8384,7 @@ button {
 
 .course-view-section .course-view .video-list-area .video-body .course-select-area .csa-body::-webkit-scrollbar {
     width: 5px;
-    background: #29303b
+    background: #141414
 }
 
 .course-view-section .course-view .video-list-area .video-body .course-select-area .csa-body::-webkit-scrollbar-track {
@@ -8398,7 +8392,7 @@ button {
 }
 
 .course-view-section .course-view .video-list-area .video-body .course-select-area .csa-body::-webkit-scrollbar-thumb {
-    background: #f16126;
+    background: #8dd017;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px
@@ -8432,7 +8426,7 @@ button {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #f16126;
+    background: #8dd017;
     transform-origin: left;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
@@ -8461,7 +8455,7 @@ button {
 
 .overview-announce-section .course-view-bottom .tab-content .overview-area .overview-body ul li {
     padding: 15px 0;
-    border-top: 1px solid #29303b
+    border-top: 1px solid #141414
 }
 
 .overview-announce-section .course-view-bottom .tab-content .overview-area .overview-body ul li .overview-left {
@@ -8658,7 +8652,7 @@ button {
 }
 
 .overview-announce-section .course-view-bottom .tab-content .announcement-area .announcement-lists .student-reviwe .student-content form textarea {
-    background: #29303b;
+    background: #141414;
     border-color: transparent;
     color: rgba(183, 198, 210, .62);
     -webkit-border-radius: 6px;
@@ -9099,7 +9093,7 @@ button {
 
 .blog-single .section-wrapper .post-item .post-inner .post-content .tags-section .tags li a:hover,
 .blog-single .section-wrapper .post-item .post-inner .post-content .tags-section .tags li a .active {
-    border-color: #f16126
+    border-color: #8dd017
 }
 
 .blog-single .section-wrapper .post-item .post-inner .post-content .tags-section .scocial-media {
@@ -9457,7 +9451,7 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .footer-bottom .section-wrapper p a:hover {
-    color: #f16126
+    color: #8dd017
 }
 
 .news-footer-wrap {
