@@ -1,0 +1,70 @@
+
+import { Link } from "react-router-dom";
+
+const title = <h2 className="title">More Then <span className="yellow-color">35,000</span> Customers</h2>;
+const desc = "Buy products in low prices!";
+
+
+const clientsList = [
+    {
+        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgAlt: 'education thumb rajibraj91 rajibraj',
+        text: 'Join with Us',
+    },
+    {
+        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgAlt: 'education thumb rajibraj91 rajibraj',
+        text: 'Join with Us',
+    },
+    {
+        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgAlt: 'education thumb rajibraj91 rajibraj',
+        text: 'Join with Us',
+    },
+    {
+        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgAlt: 'education thumb rajibraj91 rajibraj',
+        text: 'Join with Us',
+    },
+    {
+        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgAlt: 'education thumb rajibraj91 rajibraj',
+        text: 'Join with Us',
+    },
+    {
+        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgAlt: 'education thumb rajibraj91 rajibraj',
+        text: 'Join with Us',
+    },
+    {
+        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgAlt: 'education thumb rajibraj91 rajibraj',
+        text: 'Join with Us',
+    },
+]
+const LocationSprade = () => {
+  return (
+    <div className="clients-section style-2 padding-tb">
+    <div className="container">
+        <div className="section-header text-center">
+            {title}
+            <p>{desc}</p>
+        </div>
+        <div className="section-wrapper">
+            <div className="clients">
+                {clientsList.map((val, i) => (
+                    <div className="client-list" key={i}>
+                        <Link to="/sign-up" className="client-content"><span>{val.text}</span></Link>
+                        <div className="client-thumb">
+                            <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    </div>
+</div>
+  )
+}
+
+export default LocationSprade
