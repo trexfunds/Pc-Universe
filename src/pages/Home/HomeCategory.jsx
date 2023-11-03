@@ -10,37 +10,37 @@ const categoryList = [
         imgUrl: 'src/assets/images/category/01.png',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
-        title: 'DSLR Camera',
+        title: 'GIGABYTE',
     },
     {
         imgUrl: 'src/assets/images/category/02.png',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
-        title: 'Shoes',
+        title: 'MSI',
     },
     {
         imgUrl: 'src/assets/images/category/03.png',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
-        title: 'Photography',
+        title: 'VR Ready',
     },
     {
         imgUrl: 'src/assets/images/category/04.png',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
-        title: 'Formal Dress',
+        title: 'GTX',
     },
     {
         imgUrl: 'src/assets/images/category/05.png',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
-        title: 'Colorful Bags',
+        title: 'GTX 1050Ti',
     },
     {
         imgUrl: 'src/assets/images/category/06.png',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
-        title: 'Home Decor',
+        title: 'GeForce',
     },
 ]
 
