@@ -830,7 +830,7 @@ footer.style-2 .footer-top .footer-item .footer-inner .footer-content .title h4,
 .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout input,
 .shop-cart .section-wrapper .cart-top table tbody tr td.product-item .p-content a,
 .shop-single .review .review-content .review-showing .content li .post-content .entry-meta .posted-on a,
-.shop-page .modal .modal-dialog .modal-content button.close:hover,
+.shop-page .modal .modal-content button.close:hover,
 .shop-page .shop-product-wrap .product-item .product-content h5 a,
 .shop-page .shop-product-wrap .product-list-item .product-content h5 a,
 .shop-page .shop-title .product-view-mode a,
@@ -879,8 +879,6 @@ footer.style-2 .footer-top .footer-item .footer-inner .footer-content .title h4,
 .yellow-color-section .post-item.style-3 .post-inner .post-content .lab-btn span,
 .yellow-color-section .section-wrapper .course-item.style-3 .course-inner .course-content .lab-btn span,
 .yellow-color-section .section-wrapper .course-item.style-3 .course-inner .course-thumb ul li .price,
-.cart-plus-minus .qtybutton,
-.cart-plus-minus .cart-plus-minus-box,
 .video-button:hover i,
 .clients-slider-nav,
 a:hover,
@@ -889,6 +887,12 @@ a:active,
 a:visited,
 a {
     color: #fff
+}
+
+.modal-dialog,.cart-plus-minus .qtybutton,
+.cart-plus-minus-box,
+.cart-plus-minus {
+    color: #000;
 }
 
 footer.style-2 .footer-top.dark-view,
@@ -1693,7 +1697,8 @@ footer.style-2 .footer-top .footer-item.twitter-post .footer-inner .footer-conte
 .social-icons li a.instagram {
     background: #e4405f
 }
-.course-side-detail .csd-content .sidebar-social .ss-content ul li{
+
+.course-side-detail .csd-content .sidebar-social .ss-content ul li {
     background: #55acee
 }
 
@@ -2374,7 +2379,7 @@ button {
     height: 100%;
     background-color: #141414;
     z-index: -1;
-    
+
 }
 
 .account-wrapper {

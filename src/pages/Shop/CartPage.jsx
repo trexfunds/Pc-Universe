@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import PageHeader from "../../components/PageHeader";
 import { Link } from "react-router-dom";
 import CheckoutPage from "./CheckoutPage";
+import delImgUrl from "../../assets/images/shop/del.png";
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);

@@ -32,9 +32,8 @@ const NavItems = () => {
 
   return (
     <header
-      className={`header-section style-4 ${
-        headerFiexd ? "header-fixed fadeInUp" : ""
-      }`}
+      className={`header-section style-4 ${headerFiexd ? "header-fixed fadeInUp" : ""
+        }`}
     >
       {/* ------ header top: first div ----- */}
       <div className={`header-top d-md-none ${socialToggle ? "open" : ""}`}>
@@ -102,17 +101,14 @@ const NavItems = () => {
                     )}
                   </div>
                   <NavDropdown id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1" onClick={handleLogout}>
-                      Logout
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/cart-page">Order</NavDropdown.Item>
                     <NavDropdown.Item href="/cart-page">
                       Shopping Cart
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">
-                      Profile
-                    </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="/cart-page">Order</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.1" onClick={handleLogout}>
+                      Logout
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </>
               ) : (
