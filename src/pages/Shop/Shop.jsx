@@ -7,7 +7,7 @@ import ShopCategory from "./ShopCategory";
 import Tags from "./Tags";
 import ProductCards from "./ProductCards";
 const showResult = "Showing 01 - 12 of 139 Results";
-import Data from "/src/products.json"
+import Data from "../../products.json"
 
 const Shop = () => {
   const [GridList, setGridList] = useState(true);
