@@ -4555,7 +4555,7 @@ button {
 }
 
 .banner-section {
-    background-image: url(../images/bg-img/01.jpg);
+    background-color: #141414;
     background-size: cover;
     padding-top: 170px
 }
@@ -4933,7 +4933,7 @@ button {
 }
 
 .banner-section.style-4 {
-    background-image: url(../../assets/images/bg-img/06.jpg);
+    background-color: #141414;
     z-index: 1;
     padding-bottom: 100px
 }
@@ -5176,7 +5176,7 @@ button {
 
 .pageheader-section {
     padding: 250px 0 100px;
-    background-image: url(../images/pageheader/bg/01.jpg);
+    background-color: #141414;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat
@@ -5285,7 +5285,7 @@ button {
 }
 
 .category-section.style-2 .section-wrapper .col .category-item .category-inner {
-    background: url(../../assets/images/category/bg/01.jpg) no-repeat;
+    background-color: #141414;
     background-size: cover !important
 }
 
@@ -5300,31 +5300,31 @@ button {
 }
 
 .category-section.style-2 .section-wrapper .col:nth-of-type(8n + 2) .category-item .category-inner {
-    background: url(../../assets/images/category/bg/02.jpg) no-repeat
+    background-color: #141414;
 }
 
 .category-section.style-2 .section-wrapper .col:nth-of-type(8n + 3) .category-item .category-inner {
-    background: url(../../assets/images/category/bg/03.jpg) no-repeat
+    background-color: #141414;
 }
 
 .category-section.style-2 .section-wrapper .col:nth-of-type(8n + 4) .category-item .category-inner {
-    background: url(../../assets/images/category/bg/04.jpg) no-repeat
+    background-color: #141414;
 }
 
 .category-section.style-2 .section-wrapper .col:nth-of-type(8n + 5) .category-item .category-inner {
-    background: url(../../assets/images/category/bg/05.jpg) no-repeat
+    background-color: #141414;
 }
 
 .category-section.style-2 .section-wrapper .col:nth-of-type(8n + 6) .category-item .category-inner {
-    background: url(../../assets/images/category/bg/06.jpg) no-repeat
+    background-color: #141414;
 }
 
 .category-section.style-2 .section-wrapper .col:nth-of-type(8n + 7) .category-item .category-inner {
-    background: url(../../assets/images/category/bg/07.jpg) no-repeat
+    background-color: #141414;
 }
 
 .category-section.style-2 .section-wrapper .col:nth-of-type(8n + 8) .category-item .category-inner {
-    background: url(../../assets/images/category/bg/08.jpg) no-repeat
+    background-color: #141414;
 }
 
 @media(min-width: 992px) {
@@ -5423,7 +5423,7 @@ button {
 }
 
 .course-section.style-3 {
-    background: url(../../assets/images/shape-img/01.jpg) no-repeat;
+    background-color: #141414;
     background-position: center;
     background-size: cover
 }
@@ -6408,7 +6408,7 @@ button {
 .newsletters-section::after {
     bottom: 0;
     left: 0;
-    background: url(../../assets/images/shape-img/06.png) no-repeat;
+    background-color: #141414;
     background-position: center;
     background-size: cover
 }
