@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const ProductDisplay = ({ item }) => {
-  const { id, img, price, name, quantity, seller, desc } = item;
+  const { id, img, price, name, quantity, seller, desc, ratings } = item;
   const [prequantity, setQuantity] = useState(quantity);
   const [coupon, setCoupon] = useState("");
   const [size, setSize] = useState("Select Size");
@@ -78,7 +78,7 @@ const ProductDisplay = ({ item }) => {
           <i className="icofont-star"></i>
           <i className="icofont-star"></i>
           <i className="icofont-star"></i>
-          (3 review)
+         <p> {ratings} reviews</p>
         </p>
         <h4>${price}</h4>
         <h6>{seller}</h6>
