@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/images/logo/logo.png";
+import logo from "/images/logo/logo.png";
 import { AuthContext } from "../contexts/AuthProvider";
 import { NavDropdown } from "react-bootstrap";
 
@@ -95,7 +95,7 @@ const NavItems = () => {
                       </>
                     ) : (
                       <img
-                        src="/src/assets/images/author/01.jpg"
+                        src="/images/author/01.jpg"
                         className="nav-profile"
                       />
                     )}
