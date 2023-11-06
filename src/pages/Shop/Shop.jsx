@@ -4,7 +4,6 @@ import { Component, Fragment, useState } from "react";
 import Search from "./Search";
 import Pagination from "./Pagination";
 import ShopCategory from "./ShopCategory";
-import PopularPost from "./PopularPost";
 import Tags from "./Tags";
 import ProductCards from "./ProductCards";
 const showResult = "Showing 01 - 12 of 139 Results";
@@ -96,7 +95,7 @@ const [selectedCategory, setSelectedCategory] = useState("All");
                   setProducts={setProducts}
                   selectedCategory={selectedCategory }
                 />
-                <PopularPost/>
+                
                 <Tags />
               </aside>
             </div>
