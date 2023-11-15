@@ -10,16 +10,11 @@ import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import ProductDisplay from "./ProductDisplay";
 const reviwtitle = "Add a Review";
+import product from "../../products.json"
 
 const SingleProduct = () => {
-  const [product, setProduct] = useState([]);
-  const { id } = useParams();
-  useEffect(() => {
-    fetch("/src/products.json")
-      .then((res) => res.json())
-      .then((data) => setProduct(data));
-  }, []);
 
+  const { id } = useParams();
 
   const result = product.filter((p) => p.id === id);
   return (
